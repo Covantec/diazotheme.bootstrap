@@ -4,6 +4,9 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Updated the Diazo manifest file for 'Twitter Bootstrap Starter Theme'
+  [macagua]
+
 - Updated the 'Twitter Bootstrap Marketing Narrow Theme' Diazo 
   preview image and Diazo manifest file
   [macagua]
