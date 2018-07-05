@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='diazotheme.bootstrap',
       version=version,
-      description="A Diazo Themes implementation for Twitter Bootstrap CSS",
+      description="The Diazo Themes implementation for Twitter Bootstrap CSS",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
