@@ -133,7 +133,7 @@ Features
 ========
 
 - Provides the diazo rules for *Twitter Bootstrap Marketing Narrow* theme.
-- Provides the diazo rules for *Twitter Bootstrap Starter Theme* theme.
+- Provides the diazo rules for *Twitter Bootstrap Starter* theme.
 - Provides the diazo rules for *Twitter Bootstrap Hero* theme.
 
 
