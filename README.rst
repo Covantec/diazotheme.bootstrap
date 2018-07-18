@@ -172,37 +172,61 @@ Resources
 This package is the parent of all Plone diazo themes and 
 provides rule that are practical to use in other diazo themes.
 
-The resources of this framework can be reached through
 
-- **Twitter Bootstrap Marketing Narrow Theme**
+Twitter Bootstrap Marketing Narrow Theme
+----------------------------------------
+
+The resources of this theme can be reached through
+
     ``/++theme++bootstrap-marketing-narrow``
-- **Twitter Bootstrap Starter Theme**
-    ``/++theme++bootstrap-starter``
-- **Twitter Bootstrap Hero Theme**
-    ``/++theme++bootstrap``
 
-There are placed at ``diazotheme.bootstrap/diazotheme/bootstrap/`` directory 
-with following resources files:
+There are placed at ``diazotheme.bootstrap/diazotheme/bootstrap/marketing-narrow`` 
+directory with following resources files:
 
 ::
 
     _ marketing-narrow
-      Provides the resources from *Twitter Bootstrap Marketing Narrow Theme*.
-      _ manifest.cfg
-      _ preview.png
-      _ rules.xml
-      
-    _ starter
-      Provides the resources from *Twitter Bootstrap Starter Theme*.
-      _ manifest.cfg
-      _ rules.xml
-      
-    _ theme
-      Provides the resources from *Twitter Bootstrap Hero Theme*.
+      Provides the resources from "Twitter Bootstrap Marketing Narrow Theme".
       _ manifest.cfg
       _ preview.png
       _ rules.xml
 
+
+Twitter Bootstrap Starter Theme
+-------------------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++bootstrap-starter``
+
+There are placed at ``diazotheme.bootstrap/diazotheme/bootstrap/starter`` 
+directory with following resources files:
+
+::
+
+    _ starter
+      Provides the resources from "Twitter Bootstrap Starter Theme".
+      _ manifest.cfg
+      _ rules.xml
+
+
+Twitter Bootstrap Hero Theme
+----------------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++bootstrap``
+
+There are placed at ``diazotheme.bootstrap/diazotheme/bootstrap/theme`` 
+directory with following resources files:
+
+::
+
+    _ theme
+      Provides the resources from "Twitter Bootstrap Hero Theme".
+      _ manifest.cfg
+      _ preview.png
+      _ rules.xml
 
 Contribute
 ==========
