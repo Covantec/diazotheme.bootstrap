@@ -7,7 +7,7 @@ Introduction
 ============
 
 ``diazotheme.bootstrap`` package provides diazo themes based on the `Twitter Bootstrap CSS framework`_ 
-using the **theming** and **packaging** features available for create Diazo_ theme
+using the **theming** and **packaging** features available for create `Diazo`_ theme
 using `plone.app.theming`_.
 
 ``diazotheme.bootstrap`` package contains the following diazo implementations: 
@@ -107,7 +107,7 @@ Twitter Bootstrap Starter Theme
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: https://github.com/TH-code/diazoframework.bootstrap/raw/master/diazoframework/bootstrap/framework/preview.png
+.. image:: https://github.com/collective/diazoframework.bootstrap/raw/master/diazoframework/bootstrap/framework/preview.png
   :alt: Twitter Bootstrap Starter Theme
   :align: center
 
@@ -126,7 +126,10 @@ Requirements
 ============
 
 - From the Plone 4.1.x To the Plone 4.3 latest version (https://plone.org/download)
-- The ``plone.app.theming`` package (*You will need enable it to use this package*)
+- The ``plone.app.theming`` package (*You will need enable it via "Add-ons" control 
+  panel to use this package*)
+- The ``diazoframework.bootstrap`` package (*You will need enable it via "buildout" 
+  configuration to use this package*)
 
 
 Features
@@ -139,6 +142,10 @@ Features
 
 Installation
 ============
+
+
+This add-on can be installed has any other add-ons. It's doesn't have any profile, so 
+just add it to your Zope instance, for doing that please the follow steps: 
 
 
 Buildout
@@ -255,7 +262,7 @@ Amazing contributions
 You can find an updated list of package contributors on https://github.com/TH-code/diazotheme.bootstrap/contributors
 
 .. _`Twitter Bootstrap CSS framework`: http://twitter.github.io/
-.. _`diazoframework.bootstrap`: https://github.com/TH-code/diazoframework.bootstrap
-.. _`diazotheme.bootstrap`: https://github.com/TH-code/diazotheme.bootstrap
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
+.. _`diazoframework.bootstrap`: https://github.com/collective/diazoframework.bootstrap
+.. _`diazotheme.bootstrap`: https://github.com/TH-code/diazotheme.bootstrap
